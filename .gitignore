@@ -170,5 +170,16 @@ cython_debug/
 # Ruff stuff:
 .ruff_cache/
 
+
 # PyPI configuration file
 .pypirc
+# 忽略模型权重
+*.pth
+*.ckpt
+*.h5
+*.pt
+
+# 忽略大型数据文件
+*.zip
+*.tar.gz
+data/  # 忽略整个 data 目录（若包含训练数据）
